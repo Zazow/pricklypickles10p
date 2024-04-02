@@ -210,7 +210,8 @@
         document.getElementById("fadein").remove();
       }, 1000);
       if (Math.random() <= 0.1) {
-        gtag_report_conversion('/pricklypickles/interested.html');
+        console.log('converted');
+        setTimeout(() => gtag_report_conversion('/pricklypickles10p/interested.html'), 1000);
       }
     };
   </script>
